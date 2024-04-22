@@ -31,7 +31,7 @@
 
 ### Purpose of the Document
 
-This document aims to provide a comprehensive guide to the cloud architecture implemented for the Quest application. It details the components, security measures, deployment processes, and operational procedures.
+This document aims to provide a comprehensive guide to the cloud architecture implemented for the Quest application. It details the components and security measures.
 
 ### Intended Audience
 
@@ -39,8 +39,7 @@ This document is intended for system administrators, developers, and IT manageme
 
 ## High-Level Overview
 
-The architecture described here leverages AWS services to create a robust, scalable, and secure environment for running our Node.js applications using Amazon ECS on AWS Fargate with an integrated CI/CD pipeline using Terraform and GitHub Actions.
-
+The architecture described here leverages AWS services to create a robust, scalable, and secure environment for running our Node.js applications using Amazon ECS on AWS Fargate using Terraform.
 ## Architecture Overview
 
 ### Two-tiered Virtual Private Cloud (VPC)
